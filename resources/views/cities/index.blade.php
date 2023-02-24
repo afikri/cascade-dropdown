@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <style>
-        /* Center and adjust the width of the toggle button */
-        #toggle-button {
-            display: block;
-            margin: 0 auto;
-            text-align: center;
-            width: 200px;
-        }
-    </style>
+
 
 </head>
 
 <body>
     <!-- Button to trigger modal -->
-    <button type="button" id="toggle-button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Select City and Company
     </button>
 
@@ -25,29 +17,13 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Select City and Company</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-
                 <div class="modal-body">
-                    <div class="form-group">
-                        <label for="input-name">Name:</label>
-                        <input type="text" class="form-control" id="input-name" name="name">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="input-name">Phone Number:</label>
-                        <input type="text" class="form-control" id="input-name" name="name">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="input-name">Email:</label>
-                        <input type="text" class="form-control" id="input-name" name="name">
-                    </div>
                     <div class="form-group">
                         <label for="city">City:</label>
                         <select class="form-control" name="city" id="city">
